@@ -1,0 +1,91 @@
+/* ---- card ----- */
+
+.festivales {
+
+    display: flex;
+    flex-wrap: wrap;
+  
+
+}
+  
+.card {
+
+  display: flex;
+  flex-direction: column;
+  width: var(--anchura_card);
+  height: 30rem;
+  margin: 20px;
+  margin-right: 40px;
+  border-radius: 10px;
+  box-shadow: 0.05rem 0.1rem 0.3rem -0.03rem rgba(0, 0, 0, 0.681);
+
+}
+
+.card img {
+
+  border-radius: 10px 10px 0px 0px;
+  width: var(--anchura_card);
+  height: 15rem;
+
+}
+
+/*.festivales .card:hover {
+
+  overflow: hidden;
+  transform: translateY(-20px);
+  transition: all 190ms ease;
+
+}*/
+
+.title {
+
+  margin-top: 2rem;
+  align-self: center;
+
+
+}
+
+.card h3 {
+
+ text-align: center;
+ margin: 5px;
+
+}
+
+.footer{
+
+  margin-top: 3em;
+  align-self: center;
+
+}
+.footer a {
+
+  font-size: 30px;
+  color: var(--color_principal);
+ 
+}
+
+.footer a:hover {
+
+
+  animation-name: color;
+  animation-duration: 3.5s;
+ 
+}
+
+@keyframes color {
+
+  20% {
+
+    color: rgb(114, 23, 23);
+
+  }
+
+  50% {
+
+    color: rgb(4, 142, 255);
+
+  }
+}
+  
+  

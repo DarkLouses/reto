@@ -1,0 +1,73 @@
+@import url(./Css/carousel.css);
+@import url(./Css/nav.css);
+@import url(./Css/card.css);
+@import url(./Css/cantantes.css);
+
+:root {
+
+  /* -- letras -- */
+  --color_principal: rgb(0, 0, 0);
+  --color_segundario: rgb(255, 255, 255);
+
+  /* -- rgba -- */
+  --sombra: rgba(0, 0, 0, 0.87);
+
+  /* -- Anchura de card -- */
+  --anchura_card: 20rem;
+
+}
+
+html {
+
+  scroll-behavior: smooth;
+
+}
+
+body {
+
+  margin: auto;
+  padding: auto;
+  font-family:'Times New Roman', Times, serif;
+
+}
+
+* {
+
+  text-decoration:none;
+  list-style: none;
+
+}
+
+*::-webkit-scrollbar {
+
+  width: 0;
+  
+}
+
+*::-webkit-scrollbar-track {
+
+  background: transparent;
+
+}
+
+*::-webkit-scrollbar-thumb {
+
+  background: transparent;
+  border: none;
+
+}
+
+h1 {
+
+  text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
