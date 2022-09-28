@@ -67,15 +67,22 @@
 
 .informacion h2  {
 
+    text-align: center;
     font-size: 55px;
     text-shadow: 2px 2px 2px rgb(126, 126, 126);
 }
 
 .informacion p {
 
-
+    text-align: center;
     color: rgb(97, 97, 97);
     text-shadow: 0.1px 0.1px 0.1px rgb(126, 126, 126);
+}
+
+.ubicacion {
+
+    padding: 50px;
+    background-image: url(../img/img2.jpg);
 }
 
 .container_informacion {
